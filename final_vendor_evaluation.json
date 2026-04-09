@@ -1,0 +1,1649 @@
+{
+  "vendors": [
+    {
+      "name": "AssistPro",
+      "requirements_analysis": [
+        {
+          "requirement": "Single Sign-On (SSO) must integrate with Okta-based identity systems.",
+          "status": "partially_meets",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "AssistPro supports Single Sign-On (SSO) integration using industry-standard protocols such as SAML 2.0. Integration with identity providers like Okta is supported in enterprise deployments."
+            }
+          ]
+        },
+        {
+          "requirement": "Audit logging must be available for all system interactions and administrative actions.",
+          "status": "meets",
+          "reasoning": "The matched evidence explicitly supports the requirement and aligns well with the requirement wording.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "The system maintains logs of user interactions and administrative actions. These logs can be accessed through the admin interface for monitoring and auditing purposes."
+            }
+          ]
+        },
+        {
+          "requirement": "Customer data must be deletable within 30 days of contract termination.",
+          "status": "unknown",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "Data deletion requests can be processed through administrative workflows. Timelines for deletion may depend on system configuration and service agreements."
+            }
+          ]
+        },
+        {
+          "requirement": "The system must support ingestion of PDF and Markdown documentation.",
+          "status": "meets",
+          "reasoning": "The matched evidence explicitly supports the requirement and aligns well with the requirement wording.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "The platform supports ingestion of internal documentation, including PDF and Markdown files. Documents are processed and indexed to enable fast and relevant retrieval during query handling."
+            }
+          ]
+        },
+        {
+          "requirement": "The total Year 1 cost must not exceed $18,000.",
+          "status": "unknown",
+          "reasoning": "The matched evidence discusses pricing or plans, but it does not provide enough concrete pricing information to verify the year-1 cost cap.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "Standard Plan: Includes basic query handling, document ingestion, and limited integrations."
+            }
+          ]
+        },
+        {
+          "requirement": "The system must support Single Sign-On (SSO)",
+          "status": "partially_meets",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "AssistPro supports Single Sign-On (SSO) integration using industry-standard protocols such as SAML 2.0. Integration with identity providers like Okta is supported in enterprise deployments."
+            }
+          ]
+        },
+        {
+          "requirement": "using enterprise identity providers, specifically Okta",
+          "status": "partially_meets",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "AssistPro supports Single Sign-On (SSO) integration using industry-standard protocols such as SAML 2.0. Integration with identity providers like Okta is supported in enterprise deployments."
+            }
+          ]
+        },
+        {
+          "requirement": "Role-based access control (RBAC) must be implemented",
+          "status": "meets",
+          "reasoning": "The matched evidence explicitly supports the requirement and aligns well with the requirement wording.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "Role-based access control (RBAC) allows organizations to define permissions for different user roles including employees, administrators, and auditors."
+            }
+          ]
+        },
+        {
+          "requirement": "to restrict access based on user roles such as employee",
+          "status": "meets",
+          "reasoning": "The matched evidence explicitly supports the requirement and aligns well with the requirement wording.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "Role-based access control (RBAC) allows organizations to define permissions for different user roles including employees, administrators, and auditors."
+            }
+          ]
+        },
+        {
+          "requirement": "and auditor",
+          "status": "unknown",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "Role-based access control (RBAC) allows organizations to define permissions for different user roles including employees, administrators, and auditors."
+            }
+          ]
+        },
+        {
+          "requirement": "The system must support ingestion of documentation.",
+          "status": "meets",
+          "reasoning": "The matched evidence explicitly supports the requirement and aligns well with the requirement wording.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "The platform supports ingestion of internal documentation, including PDF and Markdown files. Documents are processed and indexed to enable fast and relevant retrieval during query handling."
+            }
+          ]
+        },
+        {
+          "requirement": "in PDF format",
+          "status": "meets",
+          "reasoning": "The matched evidence explicitly supports the requirement and aligns well with the requirement wording.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "The platform supports ingestion of internal documentation, including PDF and Markdown files. Documents are processed and indexed to enable fast and relevant retrieval during query handling."
+            }
+          ]
+        },
+        {
+          "requirement": "and Markdown formats",
+          "status": "meets",
+          "reasoning": "The matched evidence explicitly supports the requirement and aligns well with the requirement wording.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "The platform supports ingestion of internal documentation, including PDF and Markdown files. Documents are processed and indexed to enable fast and relevant retrieval during query handling."
+            }
+          ]
+        },
+        {
+          "requirement": "It should be capable of processing multi-page documents.",
+          "status": "unknown",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "The platform supports ingestion of internal documentation, including PDF and Markdown files. Documents are processed and indexed to enable fast and relevant retrieval during query handling."
+            }
+          ]
+        },
+        {
+          "requirement": "extracting structured information",
+          "status": "unknown",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "The platform supports ingestion of internal documentation, including PDF and Markdown files. Documents are processed and indexed to enable fast and relevant retrieval during query handling."
+            }
+          ]
+        },
+        {
+          "requirement": "and updating its knowledge base dynamically",
+          "status": "unknown",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "The platform supports ingestion of internal documentation, including PDF and Markdown files. Documents are processed and indexed to enable fast and relevant retrieval during query handling."
+            }
+          ]
+        },
+        {
+          "requirement": "The system must handle natural language queries.",
+          "status": "meets",
+          "reasoning": "The matched evidence explicitly supports the requirement and aligns well with the requirement wording.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "AssistPro supports natural language queries and is capable of understanding user intent across a wide range of IT and HR topics. The system maintains conversational context and supports multi-turn interactions."
+            }
+          ]
+        },
+        {
+          "requirement": "It must provide context-aware responses.",
+          "status": "unknown",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "AssistPro supports natural language queries and is capable of understanding user intent across a wide range of IT and HR topics. The system maintains conversational context and supports multi-turn interactions."
+            }
+          ]
+        },
+        {
+          "requirement": "It should support multi-turn conversations.",
+          "status": "meets",
+          "reasoning": "The matched evidence explicitly supports the requirement and aligns well with the requirement wording.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "AssistPro supports natural language queries and is capable of understanding user intent across a wide range of IT and HR topics. The system maintains conversational context and supports multi-turn interactions."
+            }
+          ]
+        },
+        {
+          "requirement": "It should maintain context across sessions where applicable.",
+          "status": "partially_meets",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "Standard Plan: Includes basic query handling, document ingestion, and limited integrations."
+            }
+          ]
+        },
+        {
+          "requirement": "The system should integrate with Slack.",
+          "status": "partially_meets",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "AssistPro provides APIs for integration with external systems. It supports integration with communication platforms like Slack and can be extended to other enterprise tools."
+            }
+          ]
+        },
+        {
+          "requirement": "It should expose APIs for integration with other enterprise systems.",
+          "status": "partially_meets",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "AssistPro provides APIs for integration with external systems. It supports integration with communication platforms like Slack and can be extended to other enterprise tools."
+            }
+          ]
+        },
+        {
+          "requirement": "All user interactions and administrative actions must be logged.",
+          "status": "meets",
+          "reasoning": "The matched evidence explicitly supports the requirement and aligns well with the requirement wording.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "The system maintains logs of user interactions and administrative actions. These logs can be accessed through the admin interface for monitoring and auditing purposes."
+            }
+          ]
+        },
+        {
+          "requirement": "Logs must be accessible for auditing purposes.",
+          "status": "meets",
+          "reasoning": "The matched evidence explicitly supports the requirement and aligns well with the requirement wording.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "The system maintains logs of user interactions and administrative actions. These logs can be accessed through the admin interface for monitoring and auditing purposes."
+            }
+          ]
+        },
+        {
+          "requirement": "Logs should include timestamps.",
+          "status": "meets",
+          "reasoning": "The matched evidence explicitly supports the requirement and aligns well with the requirement wording.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "The system maintains logs of user interactions and administrative actions. These logs can be accessed through the admin interface for monitoring and auditing purposes."
+            }
+          ]
+        },
+        {
+          "requirement": "Logs should include user identifiers.",
+          "status": "meets",
+          "reasoning": "The matched evidence explicitly supports the requirement and aligns well with the requirement wording.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "The system maintains logs of user interactions and administrative actions. These logs can be accessed through the admin interface for monitoring and auditing purposes."
+            }
+          ]
+        },
+        {
+          "requirement": "Logs should include action details.",
+          "status": "unknown",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "The system maintains logs of user interactions and administrative actions. These logs can be accessed through the admin interface for monitoring and auditing purposes."
+            }
+          ]
+        },
+        {
+          "requirement": "Customer data must be deletable within 30 days of contract termination.",
+          "status": "unknown",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "Data deletion requests can be processed through administrative workflows. Timelines for deletion may depend on system configuration and service agreements."
+            }
+          ]
+        },
+        {
+          "requirement": "Employee data must be deletable within 30 days of contract termination.",
+          "status": "unknown",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "Data deletion requests can be processed through administrative workflows. Timelines for deletion may depend on system configuration and service agreements."
+            }
+          ]
+        },
+        {
+          "requirement": "The system should provide mechanisms for data export.",
+          "status": "unknown",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "The platform supports export of knowledge base content and system logs for compliance and auditing purposes."
+            }
+          ]
+        },
+        {
+          "requirement": "The system should provide mechanisms for deletion requests.",
+          "status": "unknown",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "Data deletion requests can be processed through administrative workflows. Timelines for deletion may depend on system configuration and service agreements."
+            }
+          ]
+        },
+        {
+          "requirement": "The system must adhere to industry-standard security practices.",
+          "status": "partially_meets",
+          "reasoning": "The matched evidence suggests partial or inferred support, but it does not fully or directly satisfy the requirement as written.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "AssistPro aligns with industry compliance frameworks such as GDPR and SOC 2. Data handling practices are designed to meet regulatory requirements for enterprise customers."
+            }
+          ]
+        },
+        {
+          "requirement": "The system must use encryption at rest.",
+          "status": "unknown",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "AssistPro ensures encryption of data both at rest and in transit. The platform follows standard security practices to safeguard sensitive information."
+            }
+          ]
+        },
+        {
+          "requirement": "The system must use encryption in transit.",
+          "status": "unknown",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "AssistPro ensures encryption of data both at rest and in transit. The platform follows standard security practices to safeguard sensitive information."
+            }
+          ]
+        },
+        {
+          "requirement": "The system must have access controls.",
+          "status": "unknown",
+          "reasoning": "Only weakly matched evidence was retrieved, so the documentation does not provide enough reliable support to make a confident judgment.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "Administrators can manage knowledge sources, monitor system usage, and configure system behavior through a centralized dashboard."
+            }
+          ]
+        },
+        {
+          "requirement": "The system must have regular security audits.",
+          "status": "partially_meets",
+          "reasoning": "The matched evidence suggests partial or inferred support, but it does not fully or directly satisfy the requirement as written.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "Certain advanced features such as SSO integration, enhanced audit logging, and extended security controls are only available in enterprise deployments. Data retention and deletion timelines may vary based on configuration and contractual agreements."
+            }
+          ]
+        },
+        {
+          "requirement": "The system should be capable of handling concurrent queries from multiple users.",
+          "status": "partially_meets",
+          "reasoning": "The matched evidence suggests partial or inferred support, but it does not fully or directly satisfy the requirement as written.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "Typical response times for standard queries are within acceptable enterprise thresholds."
+            }
+          ]
+        },
+        {
+          "requirement": "Response times should be under 2 seconds for standard queries.",
+          "status": "unknown",
+          "reasoning": "The matched evidence makes a general performance claim, but it does not explicitly confirm response times under 2 seconds.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "Typical response times for standard queries are within acceptable enterprise thresholds."
+            }
+          ]
+        },
+        {
+          "requirement": "The total cost of ownership for the first year must not exceed $18,000.",
+          "status": "unknown",
+          "reasoning": "The matched evidence discusses pricing or plans, but it does not provide enough concrete pricing information to verify the year-1 cost cap.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "Standard Plan: Includes basic query handling, document ingestion, and limited integrations."
+            }
+          ]
+        },
+        {
+          "requirement": "This includes licensing, integration, and maintenance costs.",
+          "status": "partially_meets",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "Standard Plan: Includes basic query handling, document ingestion, and limited integrations."
+            }
+          ]
+        },
+        {
+          "requirement": "Solutions requiring enterprise-only upgrades for core functionality are not preferred.",
+          "status": "partially_meets",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "Enterprise Plan: Includes SSO, advanced audit logs, enhanced security controls, and priority support. Pricing varies based on the number of users and selected features. Enterprise features are not included in lower-tier plans."
+            }
+          ]
+        },
+        {
+          "requirement": "The target deployment timeline is 6-8 weeks.",
+          "status": "unknown",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "AssistPro can be deployed within 6-10 weeks depending on integration complexity and customization requirements. Vendor support is provided during onboarding."
+            }
+          ]
+        },
+        {
+          "requirement": "The vendor must provide support during onboarding and initial setup phases.",
+          "status": "unknown",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "AssistPro can be deployed within 6-10 weeks depending on integration complexity and customization requirements. Vendor support is provided during onboarding."
+            }
+          ]
+        }
+      ],
+      "violations": [],
+      "partial_compliance": [
+        {
+          "requirement": "Single Sign-On (SSO) must integrate with Okta-based identity systems.",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "AssistPro supports Single Sign-On (SSO) integration using industry-standard protocols such as SAML 2.0. Integration with identity providers like Okta is supported in enterprise deployments."
+            }
+          ]
+        },
+        {
+          "requirement": "The system must support Single Sign-On (SSO)",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "AssistPro supports Single Sign-On (SSO) integration using industry-standard protocols such as SAML 2.0. Integration with identity providers like Okta is supported in enterprise deployments."
+            }
+          ]
+        },
+        {
+          "requirement": "using enterprise identity providers, specifically Okta",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "AssistPro supports Single Sign-On (SSO) integration using industry-standard protocols such as SAML 2.0. Integration with identity providers like Okta is supported in enterprise deployments."
+            }
+          ]
+        },
+        {
+          "requirement": "It should maintain context across sessions where applicable.",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "Standard Plan: Includes basic query handling, document ingestion, and limited integrations."
+            }
+          ]
+        },
+        {
+          "requirement": "The system should integrate with Slack.",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "AssistPro provides APIs for integration with external systems. It supports integration with communication platforms like Slack and can be extended to other enterprise tools."
+            }
+          ]
+        },
+        {
+          "requirement": "It should expose APIs for integration with other enterprise systems.",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "AssistPro provides APIs for integration with external systems. It supports integration with communication platforms like Slack and can be extended to other enterprise tools."
+            }
+          ]
+        },
+        {
+          "requirement": "The system must adhere to industry-standard security practices.",
+          "reasoning": "The matched evidence suggests partial or inferred support, but it does not fully or directly satisfy the requirement as written.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "AssistPro aligns with industry compliance frameworks such as GDPR and SOC 2. Data handling practices are designed to meet regulatory requirements for enterprise customers."
+            }
+          ]
+        },
+        {
+          "requirement": "The system must have regular security audits.",
+          "reasoning": "The matched evidence suggests partial or inferred support, but it does not fully or directly satisfy the requirement as written.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "Certain advanced features such as SSO integration, enhanced audit logging, and extended security controls are only available in enterprise deployments. Data retention and deletion timelines may vary based on configuration and contractual agreements."
+            }
+          ]
+        },
+        {
+          "requirement": "The system should be capable of handling concurrent queries from multiple users.",
+          "reasoning": "The matched evidence suggests partial or inferred support, but it does not fully or directly satisfy the requirement as written.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "Typical response times for standard queries are within acceptable enterprise thresholds."
+            }
+          ]
+        },
+        {
+          "requirement": "This includes licensing, integration, and maintenance costs.",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "Standard Plan: Includes basic query handling, document ingestion, and limited integrations."
+            }
+          ]
+        },
+        {
+          "requirement": "Solutions requiring enterprise-only upgrades for core functionality are not preferred.",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "Enterprise Plan: Includes SSO, advanced audit logs, enhanced security controls, and priority support. Pricing varies based on the number of users and selected features. Enterprise features are not included in lower-tier plans."
+            }
+          ]
+        }
+      ],
+      "unknowns": [
+        {
+          "requirement": "Customer data must be deletable within 30 days of contract termination.",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "Data deletion requests can be processed through administrative workflows. Timelines for deletion may depend on system configuration and service agreements."
+            }
+          ]
+        },
+        {
+          "requirement": "The total Year 1 cost must not exceed $18,000.",
+          "reasoning": "The matched evidence discusses pricing or plans, but it does not provide enough concrete pricing information to verify the year-1 cost cap.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "Standard Plan: Includes basic query handling, document ingestion, and limited integrations."
+            }
+          ]
+        },
+        {
+          "requirement": "and auditor",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "Role-based access control (RBAC) allows organizations to define permissions for different user roles including employees, administrators, and auditors."
+            }
+          ]
+        },
+        {
+          "requirement": "It should be capable of processing multi-page documents.",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "The platform supports ingestion of internal documentation, including PDF and Markdown files. Documents are processed and indexed to enable fast and relevant retrieval during query handling."
+            }
+          ]
+        },
+        {
+          "requirement": "extracting structured information",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "The platform supports ingestion of internal documentation, including PDF and Markdown files. Documents are processed and indexed to enable fast and relevant retrieval during query handling."
+            }
+          ]
+        },
+        {
+          "requirement": "and updating its knowledge base dynamically",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "The platform supports ingestion of internal documentation, including PDF and Markdown files. Documents are processed and indexed to enable fast and relevant retrieval during query handling."
+            }
+          ]
+        },
+        {
+          "requirement": "It must provide context-aware responses.",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "AssistPro supports natural language queries and is capable of understanding user intent across a wide range of IT and HR topics. The system maintains conversational context and supports multi-turn interactions."
+            }
+          ]
+        },
+        {
+          "requirement": "Logs should include action details.",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "The system maintains logs of user interactions and administrative actions. These logs can be accessed through the admin interface for monitoring and auditing purposes."
+            }
+          ]
+        },
+        {
+          "requirement": "Customer data must be deletable within 30 days of contract termination.",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "Data deletion requests can be processed through administrative workflows. Timelines for deletion may depend on system configuration and service agreements."
+            }
+          ]
+        },
+        {
+          "requirement": "Employee data must be deletable within 30 days of contract termination.",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "Data deletion requests can be processed through administrative workflows. Timelines for deletion may depend on system configuration and service agreements."
+            }
+          ]
+        },
+        {
+          "requirement": "The system should provide mechanisms for data export.",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "The platform supports export of knowledge base content and system logs for compliance and auditing purposes."
+            }
+          ]
+        },
+        {
+          "requirement": "The system should provide mechanisms for deletion requests.",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "Data deletion requests can be processed through administrative workflows. Timelines for deletion may depend on system configuration and service agreements."
+            }
+          ]
+        },
+        {
+          "requirement": "The system must use encryption at rest.",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "AssistPro ensures encryption of data both at rest and in transit. The platform follows standard security practices to safeguard sensitive information."
+            }
+          ]
+        },
+        {
+          "requirement": "The system must use encryption in transit.",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "AssistPro ensures encryption of data both at rest and in transit. The platform follows standard security practices to safeguard sensitive information."
+            }
+          ]
+        },
+        {
+          "requirement": "The system must have access controls.",
+          "reasoning": "Only weakly matched evidence was retrieved, so the documentation does not provide enough reliable support to make a confident judgment.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "Administrators can manage knowledge sources, monitor system usage, and configure system behavior through a centralized dashboard."
+            }
+          ]
+        },
+        {
+          "requirement": "Response times should be under 2 seconds for standard queries.",
+          "reasoning": "The matched evidence makes a general performance claim, but it does not explicitly confirm response times under 2 seconds.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "Typical response times for standard queries are within acceptable enterprise thresholds."
+            }
+          ]
+        },
+        {
+          "requirement": "The total cost of ownership for the first year must not exceed $18,000.",
+          "reasoning": "The matched evidence discusses pricing or plans, but it does not provide enough concrete pricing information to verify the year-1 cost cap.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "Standard Plan: Includes basic query handling, document ingestion, and limited integrations."
+            }
+          ]
+        },
+        {
+          "requirement": "The target deployment timeline is 6-8 weeks.",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "AssistPro can be deployed within 6-10 weeks depending on integration complexity and customization requirements. Vendor support is provided during onboarding."
+            }
+          ]
+        },
+        {
+          "requirement": "The vendor must provide support during onboarding and initial setup phases.",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "AssistPro_doc",
+              "snippet": "AssistPro can be deployed within 6-10 weeks depending on integration complexity and customization requirements. Vendor support is provided during onboarding."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DeskGenie",
+      "requirements_analysis": [
+        {
+          "requirement": "Single Sign-On (SSO) must integrate with Okta-based identity systems.",
+          "status": "partially_meets",
+          "reasoning": "The vendor documentation indicates SSO-related support, but it does not clearly confirm native or explicit Okta support.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Single Sign-On (SSO) support is available through third-party integrations and may require additional configuration or external tools"
+            }
+          ]
+        },
+        {
+          "requirement": "Audit logging must be available for all system interactions and administrative actions.",
+          "status": "meets",
+          "reasoning": "The matched evidence explicitly supports the requirement and aligns well with the requirement wording.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "The system provides basic activity logs that track user queries and system responses. These logs are accessible through the admin interface. Advanced audit logging, including detailed administrative tracking and export capabilities, is not available by default"
+            }
+          ]
+        },
+        {
+          "requirement": "Customer data must be deletable within 30 days of contract termination.",
+          "status": "does_not_meet",
+          "reasoning": "The vendor documentation states a 45–60 day deletion timeline, which conflicts with the required 30-day limit.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Data deletion can be requested through support channels. The timeline for deletion is typically processed within 45-60 days depending on the request volume."
+            }
+          ]
+        },
+        {
+          "requirement": "The system must support ingestion of PDF and Markdown documentation.",
+          "status": "unknown",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Basic Plan: Core features including query handling and document ingestion."
+            }
+          ]
+        },
+        {
+          "requirement": "The total Year 1 cost must not exceed $18,000.",
+          "status": "unknown",
+          "reasoning": "The matched evidence discusses pricing or plans, but it does not provide enough concrete pricing information to verify the year-1 cost cap.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Advanced Plan: Includes additional security features and priority support. Enterprise-grade features are limited, and certain capabilities such as advanced security and customization may require additional services. Pricing is competitive and generally lower than enterprise-focused solutions."
+            }
+          ]
+        },
+        {
+          "requirement": "The system must support Single Sign-On (SSO)",
+          "status": "partially_meets",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Single Sign-On (SSO) support is available through third-party integrations and may require additional configuration or external tools"
+            }
+          ]
+        },
+        {
+          "requirement": "using enterprise identity providers, specifically Okta",
+          "status": "partially_meets",
+          "reasoning": "The vendor documentation indicates SSO-related support, but it does not clearly confirm native or explicit Okta support.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Single Sign-On (SSO) support is available through third-party integrations and may require additional configuration or external tools"
+            }
+          ]
+        },
+        {
+          "requirement": "Role-based access control (RBAC) must be implemented",
+          "status": "partially_meets",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Role-based access control is supported in a limited capacity, primarily distinguishing between administrators and standard users"
+            }
+          ]
+        },
+        {
+          "requirement": "to restrict access based on user roles such as employee",
+          "status": "partially_meets",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Role-based access control is supported in a limited capacity, primarily distinguishing between administrators and standard users"
+            }
+          ]
+        },
+        {
+          "requirement": "and auditor",
+          "status": "partially_meets",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Role-based access control is supported in a limited capacity, primarily distinguishing between administrators and standard users"
+            }
+          ]
+        },
+        {
+          "requirement": "The system must support ingestion of documentation.",
+          "status": "meets",
+          "reasoning": "The matched evidence explicitly supports the requirement and aligns well with the requirement wording.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "DeskGenie allows ingestion of internal documentation including PDF, Word, and basic text formats. The system indexes content to provide relevant answers during user interactions."
+            }
+          ]
+        },
+        {
+          "requirement": "in PDF format",
+          "status": "unknown",
+          "reasoning": "Only weakly matched evidence was retrieved, so the documentation does not provide enough reliable support to make a confident judgment.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Basic Plan: Core features including query handling and document ingestion."
+            }
+          ]
+        },
+        {
+          "requirement": "and Markdown formats",
+          "status": "unknown",
+          "reasoning": "Only weakly matched evidence was retrieved, so the documentation does not provide enough reliable support to make a confident judgment.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Basic Plan: Core features including query handling and document ingestion."
+            }
+          ]
+        },
+        {
+          "requirement": "It should be capable of processing multi-page documents.",
+          "status": "unknown",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Basic Plan: Core features including query handling and document ingestion."
+            }
+          ]
+        },
+        {
+          "requirement": "extracting structured information",
+          "status": "unknown",
+          "reasoning": "Only weakly matched evidence was retrieved, so the documentation does not provide enough reliable support to make a confident judgment.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Basic Plan: Core features including query handling and document ingestion."
+            }
+          ]
+        },
+        {
+          "requirement": "and updating its knowledge base dynamically",
+          "status": "unknown",
+          "reasoning": "Only weakly matched evidence was retrieved, so the documentation does not provide enough reliable support to make a confident judgment.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Basic Plan: Core features including query handling and document ingestion."
+            }
+          ]
+        },
+        {
+          "requirement": "The system must handle natural language queries.",
+          "status": "meets",
+          "reasoning": "The matched evidence explicitly supports the requirement and aligns well with the requirement wording.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "DeskGenie supports conversational query handling using natural language processing. The system can respond to frequently asked questions and basic operational queries with contextual awareness."
+            }
+          ]
+        },
+        {
+          "requirement": "It must provide context-aware responses.",
+          "status": "unknown",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Basic Plan: Core features including query handling and document ingestion."
+            }
+          ]
+        },
+        {
+          "requirement": "It should support multi-turn conversations.",
+          "status": "unknown",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "DeskGenie supports conversational query handling using natural language processing. The system can respond to frequently asked questions and basic operational queries with contextual awareness."
+            }
+          ]
+        },
+        {
+          "requirement": "It should maintain context across sessions where applicable.",
+          "status": "unknown",
+          "reasoning": "Only weakly matched evidence was retrieved, so the documentation does not provide enough reliable support to make a confident judgment.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Basic Plan: Core features including query handling and document ingestion."
+            }
+          ]
+        },
+        {
+          "requirement": "The system should integrate with Slack.",
+          "status": "partially_meets",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "DeskGenie supports integration with Slack and email systems. API access is available in higher-tier plans with limited documentation."
+            }
+          ]
+        },
+        {
+          "requirement": "It should expose APIs for integration with other enterprise systems.",
+          "status": "partially_meets",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Advanced Plan: Includes additional security features and priority support. Enterprise-grade features are limited, and certain capabilities such as advanced security and customization may require additional services. Pricing is competitive and generally lower than enterprise-focused solutions."
+            }
+          ]
+        },
+        {
+          "requirement": "All user interactions and administrative actions must be logged.",
+          "status": "unknown",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "The system provides basic activity logs that track user queries and system responses. These logs are accessible through the admin interface. Advanced audit logging, including detailed administrative tracking and export capabilities, is not available by default"
+            }
+          ]
+        },
+        {
+          "requirement": "Logs must be accessible for auditing purposes.",
+          "status": "meets",
+          "reasoning": "The matched evidence explicitly supports the requirement and aligns well with the requirement wording.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "The system provides basic activity logs that track user queries and system responses. These logs are accessible through the admin interface. Advanced audit logging, including detailed administrative tracking and export capabilities, is not available by default"
+            }
+          ]
+        },
+        {
+          "requirement": "Logs should include timestamps.",
+          "status": "meets",
+          "reasoning": "The matched evidence explicitly supports the requirement and aligns well with the requirement wording.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "The system provides basic activity logs that track user queries and system responses. These logs are accessible through the admin interface. Advanced audit logging, including detailed administrative tracking and export capabilities, is not available by default"
+            }
+          ]
+        },
+        {
+          "requirement": "Logs should include user identifiers.",
+          "status": "meets",
+          "reasoning": "The matched evidence explicitly supports the requirement and aligns well with the requirement wording.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "The system provides basic activity logs that track user queries and system responses. These logs are accessible through the admin interface. Advanced audit logging, including detailed administrative tracking and export capabilities, is not available by default"
+            }
+          ]
+        },
+        {
+          "requirement": "Logs should include action details.",
+          "status": "unknown",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "The system provides basic activity logs that track user queries and system responses. These logs are accessible through the admin interface. Advanced audit logging, including detailed administrative tracking and export capabilities, is not available by default"
+            }
+          ]
+        },
+        {
+          "requirement": "Customer data must be deletable within 30 days of contract termination.",
+          "status": "does_not_meet",
+          "reasoning": "The vendor documentation states a 45–60 day deletion timeline, which conflicts with the required 30-day limit.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Data deletion can be requested through support channels. The timeline for deletion is typically processed within 45-60 days depending on the request volume."
+            }
+          ]
+        },
+        {
+          "requirement": "Employee data must be deletable within 30 days of contract termination.",
+          "status": "does_not_meet",
+          "reasoning": "The vendor documentation states a 45–60 day deletion timeline, which conflicts with the required 30-day limit.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Data deletion can be requested through support channels. The timeline for deletion is typically processed within 45-60 days depending on the request volume."
+            }
+          ]
+        },
+        {
+          "requirement": "The system should provide mechanisms for data export.",
+          "status": "partially_meets",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Limited data export functionality is available for administrative use."
+            }
+          ]
+        },
+        {
+          "requirement": "The system should provide mechanisms for deletion requests.",
+          "status": "does_not_meet",
+          "reasoning": "The matched evidence contains negative, missing, or unsupported language and does not provide explicit support for the requirement.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Data deletion can be requested through support channels. The timeline for deletion is typically processed within 45-60 days depending on the request volume."
+            }
+          ]
+        },
+        {
+          "requirement": "The system must adhere to industry-standard security practices.",
+          "status": "partially_meets",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Advanced Plan: Includes additional security features and priority support. Enterprise-grade features are limited, and certain capabilities such as advanced security and customization may require additional services. Pricing is competitive and generally lower than enterprise-focused solutions."
+            }
+          ]
+        },
+        {
+          "requirement": "The system must use encryption at rest.",
+          "status": "partially_meets",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "DeskGenie provides encryption for data in transit. Data at rest encryption is supported in higher-tier deployments."
+            }
+          ]
+        },
+        {
+          "requirement": "The system must use encryption in transit.",
+          "status": "partially_meets",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "DeskGenie provides encryption for data in transit. Data at rest encryption is supported in higher-tier deployments."
+            }
+          ]
+        },
+        {
+          "requirement": "The system must have access controls.",
+          "status": "partially_meets",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Role-based access control is supported in a limited capacity, primarily distinguishing between administrators and standard users"
+            }
+          ]
+        },
+        {
+          "requirement": "The system must have regular security audits.",
+          "status": "unknown",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "The system provides basic activity logs that track user queries and system responses. These logs are accessible through the admin interface. Advanced audit logging, including detailed administrative tracking and export capabilities, is not available by default"
+            }
+          ]
+        },
+        {
+          "requirement": "The system should be capable of handling concurrent queries from multiple users.",
+          "status": "partially_meets",
+          "reasoning": "The matched evidence suggests partial or inferred support, but it does not fully or directly satisfy the requirement as written.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "DeskGenie is optimized for small to medium workloads. While it can handle concurrent users, performance may vary under heavy load conditions. Response times are generally acceptable for standard queries but may increase with complex requests or high system usage."
+            }
+          ]
+        },
+        {
+          "requirement": "Response times should be under 2 seconds for standard queries.",
+          "status": "unknown",
+          "reasoning": "The matched evidence makes a general performance claim, but it does not explicitly confirm response times under 2 seconds.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "DeskGenie is optimized for small to medium workloads. While it can handle concurrent users, performance may vary under heavy load conditions. Response times are generally acceptable for standard queries but may increase with complex requests or high system usage."
+            }
+          ]
+        },
+        {
+          "requirement": "The total cost of ownership for the first year must not exceed $18,000.",
+          "status": "unknown",
+          "reasoning": "The matched evidence discusses pricing or plans, but it does not provide enough concrete pricing information to verify the year-1 cost cap.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Growth Plan: Adds integrations and improved performance."
+            }
+          ]
+        },
+        {
+          "requirement": "This includes licensing, integration, and maintenance costs.",
+          "status": "partially_meets",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Advanced Plan: Includes additional security features and priority support. Enterprise-grade features are limited, and certain capabilities such as advanced security and customization may require additional services. Pricing is competitive and generally lower than enterprise-focused solutions."
+            }
+          ]
+        },
+        {
+          "requirement": "Solutions requiring enterprise-only upgrades for core functionality are not preferred.",
+          "status": "partially_meets",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Advanced Plan: Includes additional security features and priority support. Enterprise-grade features are limited, and certain capabilities such as advanced security and customization may require additional services. Pricing is competitive and generally lower than enterprise-focused solutions."
+            }
+          ]
+        },
+        {
+          "requirement": "The target deployment timeline is 6-8 weeks.",
+          "status": "partially_meets",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "DeskGenie offers fast deployment timelines, typically within 3-5 weeks. The system is designed for quick onboarding with minimal configuration."
+            }
+          ]
+        },
+        {
+          "requirement": "The vendor must provide support during onboarding and initial setup phases.",
+          "status": "partially_meets",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "DeskGenie offers fast deployment timelines, typically within 3-5 weeks. The system is designed for quick onboarding with minimal configuration."
+            }
+          ]
+        }
+      ],
+      "violations": [
+        {
+          "requirement": "Customer data must be deletable within 30 days of contract termination.",
+          "reasoning": "The vendor documentation states a 45–60 day deletion timeline, which conflicts with the required 30-day limit.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Data deletion can be requested through support channels. The timeline for deletion is typically processed within 45-60 days depending on the request volume."
+            }
+          ]
+        },
+        {
+          "requirement": "Customer data must be deletable within 30 days of contract termination.",
+          "reasoning": "The vendor documentation states a 45–60 day deletion timeline, which conflicts with the required 30-day limit.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Data deletion can be requested through support channels. The timeline for deletion is typically processed within 45-60 days depending on the request volume."
+            }
+          ]
+        },
+        {
+          "requirement": "Employee data must be deletable within 30 days of contract termination.",
+          "reasoning": "The vendor documentation states a 45–60 day deletion timeline, which conflicts with the required 30-day limit.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Data deletion can be requested through support channels. The timeline for deletion is typically processed within 45-60 days depending on the request volume."
+            }
+          ]
+        },
+        {
+          "requirement": "The system should provide mechanisms for deletion requests.",
+          "reasoning": "The matched evidence contains negative, missing, or unsupported language and does not provide explicit support for the requirement.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Data deletion can be requested through support channels. The timeline for deletion is typically processed within 45-60 days depending on the request volume."
+            }
+          ]
+        }
+      ],
+      "partial_compliance": [
+        {
+          "requirement": "Single Sign-On (SSO) must integrate with Okta-based identity systems.",
+          "reasoning": "The vendor documentation indicates SSO-related support, but it does not clearly confirm native or explicit Okta support.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Single Sign-On (SSO) support is available through third-party integrations and may require additional configuration or external tools"
+            }
+          ]
+        },
+        {
+          "requirement": "The system must support Single Sign-On (SSO)",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Single Sign-On (SSO) support is available through third-party integrations and may require additional configuration or external tools"
+            }
+          ]
+        },
+        {
+          "requirement": "using enterprise identity providers, specifically Okta",
+          "reasoning": "The vendor documentation indicates SSO-related support, but it does not clearly confirm native or explicit Okta support.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Single Sign-On (SSO) support is available through third-party integrations and may require additional configuration or external tools"
+            }
+          ]
+        },
+        {
+          "requirement": "Role-based access control (RBAC) must be implemented",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Role-based access control is supported in a limited capacity, primarily distinguishing between administrators and standard users"
+            }
+          ]
+        },
+        {
+          "requirement": "to restrict access based on user roles such as employee",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Role-based access control is supported in a limited capacity, primarily distinguishing between administrators and standard users"
+            }
+          ]
+        },
+        {
+          "requirement": "and auditor",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Role-based access control is supported in a limited capacity, primarily distinguishing between administrators and standard users"
+            }
+          ]
+        },
+        {
+          "requirement": "The system should integrate with Slack.",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "DeskGenie supports integration with Slack and email systems. API access is available in higher-tier plans with limited documentation."
+            }
+          ]
+        },
+        {
+          "requirement": "It should expose APIs for integration with other enterprise systems.",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Advanced Plan: Includes additional security features and priority support. Enterprise-grade features are limited, and certain capabilities such as advanced security and customization may require additional services. Pricing is competitive and generally lower than enterprise-focused solutions."
+            }
+          ]
+        },
+        {
+          "requirement": "The system should provide mechanisms for data export.",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Limited data export functionality is available for administrative use."
+            }
+          ]
+        },
+        {
+          "requirement": "The system must adhere to industry-standard security practices.",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Advanced Plan: Includes additional security features and priority support. Enterprise-grade features are limited, and certain capabilities such as advanced security and customization may require additional services. Pricing is competitive and generally lower than enterprise-focused solutions."
+            }
+          ]
+        },
+        {
+          "requirement": "The system must use encryption at rest.",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "DeskGenie provides encryption for data in transit. Data at rest encryption is supported in higher-tier deployments."
+            }
+          ]
+        },
+        {
+          "requirement": "The system must use encryption in transit.",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "DeskGenie provides encryption for data in transit. Data at rest encryption is supported in higher-tier deployments."
+            }
+          ]
+        },
+        {
+          "requirement": "The system must have access controls.",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Role-based access control is supported in a limited capacity, primarily distinguishing between administrators and standard users"
+            }
+          ]
+        },
+        {
+          "requirement": "The system should be capable of handling concurrent queries from multiple users.",
+          "reasoning": "The matched evidence suggests partial or inferred support, but it does not fully or directly satisfy the requirement as written.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "DeskGenie is optimized for small to medium workloads. While it can handle concurrent users, performance may vary under heavy load conditions. Response times are generally acceptable for standard queries but may increase with complex requests or high system usage."
+            }
+          ]
+        },
+        {
+          "requirement": "This includes licensing, integration, and maintenance costs.",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Advanced Plan: Includes additional security features and priority support. Enterprise-grade features are limited, and certain capabilities such as advanced security and customization may require additional services. Pricing is competitive and generally lower than enterprise-focused solutions."
+            }
+          ]
+        },
+        {
+          "requirement": "Solutions requiring enterprise-only upgrades for core functionality are not preferred.",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Advanced Plan: Includes additional security features and priority support. Enterprise-grade features are limited, and certain capabilities such as advanced security and customization may require additional services. Pricing is competitive and generally lower than enterprise-focused solutions."
+            }
+          ]
+        },
+        {
+          "requirement": "The target deployment timeline is 6-8 weeks.",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "DeskGenie offers fast deployment timelines, typically within 3-5 weeks. The system is designed for quick onboarding with minimal configuration."
+            }
+          ]
+        },
+        {
+          "requirement": "The vendor must provide support during onboarding and initial setup phases.",
+          "reasoning": "The matched evidence suggests explicit support, but it appears conditional, tier-dependent, deployment-specific, or otherwise constrained.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "DeskGenie offers fast deployment timelines, typically within 3-5 weeks. The system is designed for quick onboarding with minimal configuration."
+            }
+          ]
+        }
+      ],
+      "unknowns": [
+        {
+          "requirement": "The system must support ingestion of PDF and Markdown documentation.",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Basic Plan: Core features including query handling and document ingestion."
+            }
+          ]
+        },
+        {
+          "requirement": "The total Year 1 cost must not exceed $18,000.",
+          "reasoning": "The matched evidence discusses pricing or plans, but it does not provide enough concrete pricing information to verify the year-1 cost cap.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Advanced Plan: Includes additional security features and priority support. Enterprise-grade features are limited, and certain capabilities such as advanced security and customization may require additional services. Pricing is competitive and generally lower than enterprise-focused solutions."
+            }
+          ]
+        },
+        {
+          "requirement": "in PDF format",
+          "reasoning": "Only weakly matched evidence was retrieved, so the documentation does not provide enough reliable support to make a confident judgment.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Basic Plan: Core features including query handling and document ingestion."
+            }
+          ]
+        },
+        {
+          "requirement": "and Markdown formats",
+          "reasoning": "Only weakly matched evidence was retrieved, so the documentation does not provide enough reliable support to make a confident judgment.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Basic Plan: Core features including query handling and document ingestion."
+            }
+          ]
+        },
+        {
+          "requirement": "It should be capable of processing multi-page documents.",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Basic Plan: Core features including query handling and document ingestion."
+            }
+          ]
+        },
+        {
+          "requirement": "extracting structured information",
+          "reasoning": "Only weakly matched evidence was retrieved, so the documentation does not provide enough reliable support to make a confident judgment.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Basic Plan: Core features including query handling and document ingestion."
+            }
+          ]
+        },
+        {
+          "requirement": "and updating its knowledge base dynamically",
+          "reasoning": "Only weakly matched evidence was retrieved, so the documentation does not provide enough reliable support to make a confident judgment.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Basic Plan: Core features including query handling and document ingestion."
+            }
+          ]
+        },
+        {
+          "requirement": "It must provide context-aware responses.",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Basic Plan: Core features including query handling and document ingestion."
+            }
+          ]
+        },
+        {
+          "requirement": "It should support multi-turn conversations.",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "DeskGenie supports conversational query handling using natural language processing. The system can respond to frequently asked questions and basic operational queries with contextual awareness."
+            }
+          ]
+        },
+        {
+          "requirement": "It should maintain context across sessions where applicable.",
+          "reasoning": "Only weakly matched evidence was retrieved, so the documentation does not provide enough reliable support to make a confident judgment.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Basic Plan: Core features including query handling and document ingestion."
+            }
+          ]
+        },
+        {
+          "requirement": "All user interactions and administrative actions must be logged.",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "The system provides basic activity logs that track user queries and system responses. These logs are accessible through the admin interface. Advanced audit logging, including detailed administrative tracking and export capabilities, is not available by default"
+            }
+          ]
+        },
+        {
+          "requirement": "Logs should include action details.",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "The system provides basic activity logs that track user queries and system responses. These logs are accessible through the admin interface. Advanced audit logging, including detailed administrative tracking and export capabilities, is not available by default"
+            }
+          ]
+        },
+        {
+          "requirement": "The system must have regular security audits.",
+          "reasoning": "Some related evidence was retrieved, but it is too vague or indirect to determine whether the requirement is satisfied.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "The system provides basic activity logs that track user queries and system responses. These logs are accessible through the admin interface. Advanced audit logging, including detailed administrative tracking and export capabilities, is not available by default"
+            }
+          ]
+        },
+        {
+          "requirement": "Response times should be under 2 seconds for standard queries.",
+          "reasoning": "The matched evidence makes a general performance claim, but it does not explicitly confirm response times under 2 seconds.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "DeskGenie is optimized for small to medium workloads. While it can handle concurrent users, performance may vary under heavy load conditions. Response times are generally acceptable for standard queries but may increase with complex requests or high system usage."
+            }
+          ]
+        },
+        {
+          "requirement": "The total cost of ownership for the first year must not exceed $18,000.",
+          "reasoning": "The matched evidence discusses pricing or plans, but it does not provide enough concrete pricing information to verify the year-1 cost cap.",
+          "evidence": [
+            {
+              "source": "Deskgenie_doc",
+              "snippet": "Growth Plan: Adds integrations and improved performance."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "final_recommendation": {
+    "selected_vendor": "AssistPro",
+    "justification": "AssistPro is recommended because it achieved the strongest overall compliance profile after weighting mandatory requirements more heavily. It has a weighted score of 24.0, with 2 mandatory requirements fully met, 1 partially met, 0 mandatory failures, and 2 unresolved mandatory requirements.",
+    "tradeoffs": [
+      "AssistPro: All Requirements(meets=13, partial=11, failed=0, unknown=19), Mandatory Requirements(meets=2, partial=1, failed=0, unknown=2) ",
+      "DeskGenie: All Requirements(meets=6, partial=18, failed=4, unknown=15), Mandatory Requirements(meets=1, partial=1, failed=1, unknown=2) "
+    ]
+  }
+}
